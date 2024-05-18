@@ -41,16 +41,44 @@ The dataset consists of 35 columns and 1470 rows with no missing values. Since t
 35.	**YearsWithCurrManager**: Number of years the employee has been with their current manager.
 
 The first 5 rows of the dataset
+
 ![dataset_structure_01](https://github.com/pongsakorn-onnim/Power_BI_project/assets/87061596/c1dbe446-3e83-4d3c-9e34-6245dc8988a2)
 ![dataset_structure_02](https://github.com/pongsakorn-onnim/Power_BI_project/assets/87061596/5f57bf6d-9bd9-462f-b485-74502a9cc866)
 ![dataset_structure_03](https://github.com/pongsakorn-onnim/Power_BI_project/assets/87061596/8d14c097-de31-45e6-a531-24ef9ce13e7b)
 
-Data Transformation
+
+# Data Transformation
 1.	Created Dax Measures to calculate attrition rate, number of active/inactive employees, average monthly income, and total number of employees. We will use these measures to create insightful visualizations.
 ![02_dax_measuresjpg](https://github.com/pongsakorn-onnim/Power_BI_project/assets/87061596/bc3cd3cf-1a34-43ad-8406-192b8fa29313)
 
 2.	Created age and monthly income bin columns, as the original columns had too many different values. Grouping them into bins helps us better see insights across different age and income groups.
 ![03_age_ _monthly_bins](https://github.com/pongsakorn-onnim/Power_BI_project/assets/87061596/75bdc641-20af-4973-aee5-1959e0527a6d)
+
+
+# Data visualization and dashboard making
+## Overview analysis
+![04_overview](https://github.com/pongsakorn-onnim/Power_BI_project/assets/87061596/fcc45f52-71d4-4510-b19c-1cc285019181)
+- The total number of employees is 1470 with 1233 active and 237 inactive employees. The attrition rate is **16.12%**. 
+- **The R&D department has the highest number of employees** which takes up around 67.15% of total active employees followed by sales, and the HR department
+- **The top three job roles by number of employees** are sales executive, research scientist, and laboratory technician.
+
+
+## Demographics analysis
+![05_demographics](https://github.com/pongsakorn-onnim/Power_BI_project/assets/87061596/70f7bd99-2f1a-4907-8668-47cbe5938131)
+- **45.78% of employees are married**, 31.97% single, and 22.24% divorced.
+- Most of the employees in the company are in **the 31-40 age range**, with 619 employees.
+
+
+# Attrition analysis
+![06_attrition](https://github.com/pongsakorn-onnim/Power_BI_project/assets/87061596/0aee18f9-eebb-4243-b81c-b9165069d1d3)
+-	Employees **under 20 years old** have the highest attrition rate, at 58.82%.
+-	Employees with a **monthly income below $5,000** have the highest attrition rate, at 21.76%.
+-	Employees who **frequently travel for business** have the highest attrition rate, at 24.91%.
+-	Employees who **work overtime** have a higher attrition rate than those who don't, at 30.53%.
+- **The sales department has the highest attrition rate** with 20.63% followed by human resources at 19.05%, and research & development at 13.84%.
+- Employees who **live farther from the company have a higher chance of leaving**.
+
+
 
   
 
