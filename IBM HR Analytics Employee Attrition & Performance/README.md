@@ -78,7 +78,15 @@ The first 5 rows of the dataset
 - **The sales department has the highest attrition rate** with 20.63% followed by human resources at 19.05%, and research & development at 13.84%.
 - Employees who **live farther from the company have a higher chance of leaving**.
 
+# Recommendations
+**Target younger employees (under 20) with engagement programs:**
+This age group has the highest attrition rate. Consider mentorship programs, social events, or clear career development paths to increase their engagement and retention.
 
+**Promote work-life balance:**
+Consider offering flexible work arrangements or remote work options to improve work-life balance, which could be a factor for employees who work overtime or have a long commute.
+
+**Review workload and travel frequency:**
+Employees who frequently travel for business and those who work overtime have a higher attrition rate. Explore ways to reduce workload or overtime, or offer additional compensation/benefits for those who travel extensively.
 
   
 
